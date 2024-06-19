@@ -1,0 +1,80 @@
+body{
+    
+    background-color: #462ae3;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    
+}
+.header{
+       
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+           
+}
+.logo{
+    flex-grow: 50;
+}
+.sign-in{
+    flex-grow: 2;
+    border-radius: 20px;
+}
+.button-header{
+    flex-grow: 15;
+    padding: 0px;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    
+}
+.button{
+    flex-grow: 1;
+    padding: 15px;
+    color: white;
+    background-color: orange;
+    border: none;
+    border-radius: 20px;
+}
+a:visited{
+    color: white;
+
+}
+.main{
+    flex: 3;
+}
+.main-content{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.main content-left-column{
+    
+    flex: 1;
+    text-align: center;
+    
+    
+    
+}
+
+.left-column-item{
+    padding: 10px;
+    color: white;
+    width: 891px;
+}
+.main-content-right-column{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex: 2;
+    width: 2050px;
+}
+.right-column-item{
+    padding: 10px;
+    color: white;
+    text-align: right;
+}
