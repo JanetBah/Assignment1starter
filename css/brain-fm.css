@@ -1,7 +1,7 @@
 body{
     
     background-color: #462ae3;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, sans-serif;
     display: flex;
     flex-direction: column;
     height: 100vh;
@@ -14,6 +14,7 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin: 30px;
            
 }
 .logo{
@@ -38,6 +39,9 @@ body{
     background-color: orange;
     border: none;
     border-radius: 20px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
 }
 a:visited{
     color: white;
@@ -52,10 +56,14 @@ a:visited{
     
     
 }
-.main content-left-column{
+.main-content-left-column{
     
     flex: 1;
-    text-align: center;
+    text-align: left;
+    width: 891px;
+    position: absolute;
+    top: 250px;
+    left: 30px;
     
     
     
@@ -72,9 +80,45 @@ a:visited{
     align-items: center;
     flex: 2;
     width: 2050px;
+    right: 30px;
+    position: absolute;
 }
 .right-column-item{
     padding: 10px;
     color: white;
     text-align: right;
+}
+.main-middle-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    position: relative;
+    top: 800px;
+    color: white;
+    font-weight: bold;
+    
+}
+.left-bottom-column{
+    padding: 10px;
+    color: white;
+    width: 891px;
+    position: relative;
+    top: 1150px;
+    left: 30px;
+    justify-content: left;
+}
+.left-bottom-link{
+    font-weight: bold;
+}
+.right-bottom-column{
+    
+    padding: 10px;
+    color: white;
+    width: 1000px;
+    position: absolute;
+    top: 1650px;
+    right: 30px;
+    justify-content: right;
 }
